@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #003153;
+
+}
+
+h1{
+    color: darkgoldenrod;
+    font-size: 60px;
+}
+
+input{
+    display: flex;
+    padding: 20px;
+    
+}
+
+form {
+    display: flex;
+}
+
+#form{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0px 0px 0px 2px #ffffff40;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#input-form{
+    display: flex;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+#input-form:focus {
+    box-shadow: 0 0 4px 1px #00000059;
+    outline: none;
+    outline-offset: 0;
+    border: 1px soild #00000000;
+}
+
+#input-btn{
+    display: flex;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color: aqua;
+
+    
+}
+
+#tasksList{
+    display:flex ;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+    
+}
+
+#task-btn {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    padding-right: 10px;
+    background-color: aquamarine;
+}
+#task-text{
+    display: flex;
+    height: 22px;
+    width: 220px;
+   
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    color: aqua;
+    background-color: white;
+    align-items: center;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
